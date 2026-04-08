@@ -6,7 +6,7 @@ var T = {
     /* TOPBAR & NAV */
     navInicio: 'Inicio', navSuscripciones: 'Suscripciones', navHosting: 'Hosting Web',
     navAlquiler: 'Alquiler Tecnológico', navBareMetal: 'Servicios Bare Metal',
-    navProductos: 'Productos', navPartners: 'Partners', navDigital: 'Digital Transformation',
+    navProductos: 'Productos', navPartners: 'Partners', navDigital: 'Transformación Digital',
     navCloud: 'Cloud Soberana', navContact: 'Contactar',
     dropHosting1: 'Hosting Web', dropHosting2: 'Planes de Hosting',
     dropCloud1: 'Cloud', dropCloud2: 'Nube Privada Empresarial',
@@ -451,6 +451,15 @@ function setLang(lang) {
     var key = el.getAttribute('data-i18n-placeholder');
     if (t[key] !== undefined) el.placeholder = t[key];
   });
+  // SEO & Titles
+  var activePage = document.querySelector('.page.active');
+  if (activePage) {
+    var pid = activePage.id.replace('page-','');
+    var pTitle = t[pid + 'Title'] || t['heroTitle'] || 'Global Cloud Group';
+    document.title = 'Global Cloud Group | ' + pTitle.replace(/<[^>]*>/g, '');
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', t[pid + 'Desc'] || t['heroDesc'] || '');
+  }
   // Temas e iconos
   var dark = document.documentElement.getAttribute('data-theme') === 'dark';
   var themeLbl = document.getElementById('themeLabel');
