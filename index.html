@@ -893,15 +893,12 @@
               <label class="form-label" data-i18n="contMsgLabel">Mensaje</label>
               <textarea placeholder="Mensaje" class="form-textarea" data-i18n-placeholder="contMsgPlaceholder" id="form-message"></textarea>
             </div>
-            <div class="form-group">
-              <label class="form-label" data-i18n="contCaptchaLabel">Seguridad: ¿Cuánto es <span id="captcha-question">...</span>?</label>
-              <div class="form-input-wrap">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  <path d="M12 8v4M12 16h.01" />
-                </svg>
-                <input type="text" id="form-captcha" placeholder="Resultado" class="form-input" />
+            <div class="form-group captcha-group">
+              <label class="form-label" id="captcha-label" data-i18n="contCaptchaVisual">Verificación de seguridad: Seleccione el icono de la <strong>Nube</strong></label>
+              <div class="captcha-icons-grid" id="captcha-icons-container">
+                <!-- Iconos generados por JS -->
               </div>
+              <input type="hidden" id="form-captcha-verified" value="0" />
             </div>
             <button class="form-submit" onclick="submitContactForm()" data-i18n="contSubmitBtn">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">

@@ -20,21 +20,21 @@ var T = {
     sl1: 'Clientes Activos', sl2: 'Uptime Garantizado', sl3: 'Soporte Técnico', sl4: 'Años de Experiencia',
 
     /* BREADCRUMBS */
-    bcInicio: 'Inicio', bcSuscripciones: 'Suscripciones', bcDaas: 'DAAS', bcProductos: 'Productos', 
-    bcContacto: 'Contacto', bcDigital: 'Digital Transformation', bcHosting: 'Hosting Web', 
-    bcHostPlanes: 'Planes de Hosting', bcCloudLabel: 'Cloud Soberana', bcAlquiler: 'Alquiler Tecnológico', 
+    bcInicio: 'Inicio', bcSuscripciones: 'Suscripciones', bcDaas: 'DAAS', bcProductos: 'Productos',
+    bcContacto: 'Contacto', bcDigital: 'Digital Transformation', bcHosting: 'Hosting Web',
+    bcHostPlanes: 'Planes de Hosting', bcCloudLabel: 'Cloud Soberana', bcAlquiler: 'Alquiler Tecnológico',
     bcBareMetal: 'Bare Metal', bcPlanes: 'Planes de Suscripción', bcCorreo: 'Correo',
-    bcInfra: 'Infraestructura TI', bcSeg: 'Soluciones de Seguridad', bcSop: 'Soporte Técnico', 
+    bcInfra: 'Infraestructura TI', bcSeg: 'Soluciones de Seguridad', bcSop: 'Soporte Técnico',
     bcTel: 'Telecomunicaciones', bcMov: 'Líneas Móviles', bcCloudPrivada: 'Nube Privada Empresarial',
     bcCloudDed: 'Cloud Dedicado y Distribuido',
 
     /* HEROES */
-    heroEyebrow: 'Transformaci&oacute;n Digital', heroTitle: 'Soluciones IT para<br/>empresas <em>que avanzan</em>', 
-    heroDesc: 'Infraestructura cloud soberana, ciberseguridad avanzada y servicios gestionados para organizaciones que exigen fiabilidad y rendimiento real.', 
+    heroEyebrow: 'Transformaci&oacute;n Digital', heroTitle: 'Soluciones IT para<br/>empresas <em>que avanzan</em>',
+    heroDesc: 'Infraestructura cloud soberana, ciberseguridad avanzada y servicios gestionados para organizaciones que exigen fiabilidad y rendimiento real.',
     heroBtn1: 'Explorar servicios', heroBtn2: 'Hablar con un experto',
 
     /* SERVICIOS (HOME) */
-    servEyebrow: 'Nuestros servicios', servTitle: 'Todo lo que tu empresa necesita', 
+    servEyebrow: 'Nuestros servicios', servTitle: 'Todo lo que tu empresa necesita',
     servDesc: 'Desde servidores f&iacute;sicos hasta cloud soberana, cubrimos cada capa de tu infraestructura tecnol&oacute;gica.',
     serv1T: 'Servidores F&iacute;sicos', serv1Desc: 'Infraestructura de alto rendimiento con m&aacute;xima fiabilidad para aplicaciones cr&iacute;ticas.',
     serv2T: 'Infraestructura IT', serv2Desc: 'Soluciones completas adaptadas a cada organizaci&oacute;n.',
@@ -51,7 +51,7 @@ var T = {
     subsCard4T: 'Agente Digital como Servicio (DAAS)', subsCard4Desc: 'Impulsa la transformación digital de tu empresa', subsCard4Btn: 'Ver Servicios DAAS',
 
     /* ALQUILER TEC PAGE (Tech Rental) */
-    rentingEyebrow: 'Renting Tecnológico', rentingTitle: 'Alquiler Tecnológico', 
+    rentingEyebrow: 'Renting Tecnológico', rentingTitle: 'Alquiler Tecnológico',
     renting1T: 'Servidores Dedicados', renting1Desc: 'Servidores dedicados de alto rendimiento con acceso root completo y configuraciones personalizadas.',
     renting2T: 'Seguridad Primero', renting2Desc: 'Seguridad empresarial con protección DDoS y actualizaciones regulares.',
     renting3T: 'Soporte 24/7', renting3Desc: 'Soporte técnico y monitoreo continuo para sus servidores alquilados.',
@@ -84,18 +84,18 @@ var T = {
     /* DAAS PAGE */
     daasEyebrow: 'DAAS', daasTitle: 'Agente Digital como Servicio (DAAS)',
     daasDesc: 'Transforme su negocio con nuestras soluciones digitales', daasBtnStart: 'Empieza con DAAS',
-    daas1T:'IA Solutions', daas1Desc:'Inteligencia artificial para operaciones inteligentes.',
+    daas1T: 'IA Solutions', daas1Desc: 'Inteligencia artificial para operaciones inteligentes.',
     subsCard4Btn: 'Ver Servicios DAAS',
 
     /* BARE METAL */
-    bareMetalEyebrow: 'Infraestructura', bareMetalTitle: 'Servidores Bare Metal', 
+    bareMetalEyebrow: 'Infraestructura', bareMetalTitle: 'Servidores Bare Metal',
     bareMetalDesc: 'Infraestructura de servidores físicos de alto rendimiento con máximo control y seguridad',
     bareMetal1T: 'Hardware Dedicado de Alto Rendimiento', bareMetal1Desc: 'Servidores f&iacute;sicos dedicados con acceso root completo.',
     bareMetal2T: 'Almacenamiento Premium Seguro', bareMetal2Desc: 'Discos SSD de &uacute;ltima generaci&oacute;n con redundancia.',
     bareMetal3T: 'Conectividad de Red Segura', bareMetal3Desc: 'Conexi&oacute;n de alta velocidad con protecci&oacute;n DDoS.',
 
     /* PRODUCTOS PAGE */
-    prodEyebrow: 'Catálogo', prodTitle: 'Nuestros Productos', 
+    prodEyebrow: 'Catálogo', prodTitle: 'Nuestros Productos',
     prodDesc: 'Soluciones completas para sus necesidades de infraestructura TI',
     prod1T: 'Infraestructura', prod1Desc: 'Servidores y redes de alto rendimiento.',
     prod2T: 'Seguridad', prod2Desc: 'Servicios integrales para proteger tu infraestructura digital.',
@@ -115,7 +115,7 @@ var T = {
     partBtn: 'Convi&eacute;rtase en Socio',
 
     /* CONTACTO PAGE */
-    contEyebrow: 'Contacto', contTitle: 'Cont&aacute;ctanos', 
+    contEyebrow: 'Contacto', contTitle: 'Cont&aacute;ctanos',
     contDesc: 'Ponte en contacto con nuestro equipo para cualquier consulta',
     contInfoTitle: 'Informaci&oacute;n de Contacto', contAddrT: 'Dirección', contPhoneT: 'Teléfono',
     contFormTitle: 'Formulario de contacto', contSubmitBtn: 'Enviar Mensaje',
@@ -131,7 +131,7 @@ var T = {
     dtBannerTitle: '&iquest;Listo para comenzar?', dtBannerBtn: 'Contactar expertos',
 
     /* HOSTING PAGE */
-    hostEyebrow: 'Hosting Web', hostTitle: 'Alojamiento web<br/><em>profesional y seguro</em>', 
+    hostEyebrow: 'Hosting Web', hostTitle: 'Alojamiento web<br/><em>profesional y seguro</em>',
     hostDesc: 'Soluciones de hosting avanzadas con soporte técnico 24/7.',
     hostWhyEyebrow: 'Por qu&eacute; elegirnos', hostWhyTitle: 'Dise&ntilde;ado para rendir',
     hostWhyDesc: 'Todo lo que tu negocio necesita sin costes ocultos.',
@@ -147,7 +147,7 @@ var T = {
     planHostBasicoBtn: 'Elegir Plan B&aacute;sico', planHostProBtn: 'Elegir Plan Profesional', planHostEmpBtn: 'Elegir Plan Empresa',
 
     /* CLOUD SOBERANA/PRIVADA/DEDICADA */
-    cloudEyebrow: 'Cloud Soberana', cloudTitle: 'Cloud <em>Soberana</em>', 
+    cloudEyebrow: 'Cloud Soberana', cloudTitle: 'Cloud <em>Soberana</em>',
     cloudDesc: 'Soberanía de datos, seguridad y máximo rendimiento.',
     cloudPrivTitle: 'Nube Privada Empresarial', cloudPrivDesc: 'Infraestructura dedicada diseñada para m&aacute;ximo rendimiento.',
     cloudPriv1T: 'Recursos Dedicados', cloudPriv2T: 'Seguridad de Nivel Empresarial', cloudPriv3T: 'Soporte Especializado',
@@ -157,19 +157,19 @@ var T = {
     contactSalesBtn: 'Contactar Ventas', downloadBtn: 'Descargar Brochure',
 
     /* INFRA/SEG/SOP/TEL/MOV */
-    infraTitle:'Infraestructura TI', infraDesc:'Servidores, redes y almacenamiento empresarial.',
-    infraSrvT:'Servidores', infraNetT:'Red', infraStoT:'Almacenamiento', infraCta:'Solicitar Información',
-    segTitle:'Soluciones de Seguridad', segDesc:'Protección integral para tu negocio.',
-    segLearn:'Saber más',
-    sopTitle:'Soporte Técnico', sopDesc:'Expertos 24/7 para soporte de calidad.',
-    sopCta:'Contactar Soporte',
-    telTitle:'Telecomunicaciones', telDesc:'Infrastructure nivel empresarial.',
-    movTitle:'Líneas Móviles', movDesc:'Planes corporativos y gestión de dispositivos.',
-    movCta:'Solicitar Oferta',
+    infraTitle: 'Infraestructura TI', infraDesc: 'Servidores, redes y almacenamiento empresarial.',
+    infraSrvT: 'Servidores', infraNetT: 'Red', infraStoT: 'Almacenamiento', infraCta: 'Solicitar Información',
+    segTitle: 'Soluciones de Seguridad', segDesc: 'Protección integral para tu negocio.',
+    segLearn: 'Saber más',
+    sopTitle: 'Soporte Técnico', sopDesc: 'Expertos 24/7 para soporte de calidad.',
+    sopCta: 'Contactar Soporte',
+    telTitle: 'Telecomunicaciones', telDesc: 'Infrastructure nivel empresarial.',
+    movTitle: 'Líneas Móviles', movDesc: 'Planes corporativos y gestión de dispositivos.',
+    movCta: 'Solicitar Oferta',
 
     /* FOOTER */
     footerTagline: 'Soluciones de seguridad e infraestructura IT para empresas que exigen rendimiento, fiabilidad y soporte real.',
-    footerSolTitle: 'Soluciones', footerCompTitle: 'Compañía', footerContTitle: 'Contacto', 
+    footerSolTitle: 'Soluciones', footerCompTitle: 'Compañía', footerContTitle: 'Contacto',
     footerRights: '© 2026 Global Cloud Group. Todos los derechos reservados.', footerLoc: 'Málaga, España',
     footerComp1: 'El Grupo'
   },
@@ -186,17 +186,17 @@ var T = {
     dropCloud1: 'Cloud', dropCloud2: 'Enterprise Private Cloud',
     modeLight: 'Light Mode', modeDark: 'Dark Mode',
     sl1: 'Active Clients', sl2: 'Guaranteed Uptime', sl3: 'Technical Support', sl4: 'Years of Experience',
-    bcInicio: 'Home', bcSuscripciones: 'Subscriptions', bcDaas: 'DAAS', bcProductos: 'Products', 
-    bcContacto: 'Contact', bcDigital: 'Digital Transformation', bcHosting: 'Web Hosting', 
-    bcHostPlanes: 'Hosting Plans', bcCloudLabel: 'Sovereign Cloud', bcAlquiler: 'Tech Rental', 
+    bcInicio: 'Home', bcSuscripciones: 'Subscriptions', bcDaas: 'DAAS', bcProductos: 'Products',
+    bcContacto: 'Contact', bcDigital: 'Digital Transformation', bcHosting: 'Web Hosting',
+    bcHostPlanes: 'Hosting Plans', bcCloudLabel: 'Sovereign Cloud', bcAlquiler: 'Tech Rental',
     bcBareMetal: 'Bare Metal', bcPlanes: 'Subscription Plans', bcCorreo: 'Email',
-    bcInfra: 'IT Infrastructure', bcSeg: 'Security Solutions', bcSop: 'Technical Support', 
+    bcInfra: 'IT Infrastructure', bcSeg: 'Security Solutions', bcSop: 'Technical Support',
     bcTel: 'Telecommunications', bcMov: 'Mobile Lines', bcCloudPrivada: 'Enterprise Private Cloud',
     bcCloudDed: 'Dedicated & Distributed Cloud',
-    heroEyebrow: 'Digital Transformation', heroTitle: 'IT Solutions for<br/>businesses <em>that advance</em>', 
-    heroDesc: 'Sovereign cloud infrastructure, advanced cybersecurity and managed services.', 
+    heroEyebrow: 'Digital Transformation', heroTitle: 'IT Solutions for<br/>businesses <em>that advance</em>',
+    heroDesc: 'Sovereign cloud infrastructure, advanced cybersecurity and managed services.',
     heroBtn1: 'Explore services', heroBtn2: 'Talk to an expert',
-    servEyebrow: 'Our services', servTitle: 'Everything your business needs', 
+    servEyebrow: 'Our services', servTitle: 'Everything your business needs',
     servDesc: 'From physical servers to sovereign cloud.',
     serv1T: 'Physical Servers', serv1Desc: 'High-performance infrastructure for critical applications.',
     serv2T: 'IT Infrastructure', serv2Desc: 'Complete solutions tailored to each organization.',
@@ -209,7 +209,7 @@ var T = {
     subsCard2T: 'Rental Plans', subsCard2Desc: 'Flexible tech rental solutions', subsCard2Btn: 'View Rental Plans',
     subsCard3T: 'Email Solutions', subsCard3Desc: 'Protect your communications with encryption.', subsCard3Btn: 'Explore Our Secure Solutions',
     subsCard4T: 'Digital Agent (DAAS)', subsCard4Desc: 'Drive digital transformation', subsCard4Btn: 'View DAAS Services',
-    rentingEyebrow: 'Tech Renting', rentingTitle: 'Tech Rental', 
+    rentingEyebrow: 'Tech Renting', rentingTitle: 'Tech Rental',
     renting1T: 'Dedicated Servers', renting1Desc: 'High-performance with root access.',
     renting2T: 'Security First', renting2Desc: 'Enterprise security with DDoS protection.',
     renting3T: '24/7 Support', renting3Desc: 'Monitoring for your rented servers.',
@@ -236,13 +236,13 @@ var T = {
     correoEntF1: '100GB Storage', correoEntF2: 'Custom domain', correoEntF3: 'Advanced security', correoEntF4: 'Archiving', correoEntF5: 'Priority support', correoEntF6: 'Collaboration',
     daasEyebrow: 'DAAS', daasTitle: 'Digital Agent (DAAS)',
     daasDesc: 'Transform your business', daasBtnStart: 'Start with DAAS',
-    daas1T:'IA Solutions', daas1Desc:'AI for smart operations.',
-    bareMetalEyebrow: 'Infrastructure', bareMetalTitle: 'Bare Metal Servers', 
+    daas1T: 'IA Solutions', daas1Desc: 'AI for smart operations.',
+    bareMetalEyebrow: 'Infrastructure', bareMetalTitle: 'Bare Metal Servers',
     bareMetalDesc: 'Physical servers with maximum control.',
     bareMetal1T: 'Dedicated Hardware', bareMetal1Desc: 'Physical servers with full root access.',
     bareMetal2T: 'Secure Storage', bareMetal2Desc: 'SSD drives with redundancy.',
     bareMetal3T: 'Network', bareMetal3Desc: 'High-speed with DDoS protection.',
-    prodEyebrow: 'Catalogue', prodTitle: 'Our Products', 
+    prodEyebrow: 'Catalogue', prodTitle: 'Our Products',
     prodDesc: 'IT infrastructure solutions.',
     prod1T: 'Infrastructure', prod1Desc: 'High-performance servers.',
     prod2T: 'Security', prod2Desc: 'Protect your digital environment.',
@@ -258,7 +258,7 @@ var T = {
     partners2T: 'Tech Partners', partners2D: 'Technology leaders.',
     partners3T: 'Global Network', partners3D: 'Localized solutions.',
     partBtn: 'Become a Partner',
-    contEyebrow: 'Contact', contTitle: 'Contact Us', 
+    contEyebrow: 'Contact', contTitle: 'Contact Us',
     contDesc: 'Get in touch for inquiries',
     contInfoTitle: 'Contact Info', contAddrT: 'Address', contPhoneT: 'Phone',
     contFormTitle: 'Contact form', contSubmitBtn: 'Send Message',
@@ -270,7 +270,7 @@ var T = {
     dtWhyDesc: 'Efficiency-driving solutions.',
     dtScheduleBtn: 'Schedule Consulta',
     dtBannerTitle: 'Ready to start?', dtBannerBtn: 'Contact experts',
-    hostEyebrow: 'Hosting', hostTitle: 'Professional<br/><em>Web Hosting</em>', 
+    hostEyebrow: 'Hosting', hostTitle: 'Professional<br/><em>Web Hosting</em>',
     hostDesc: 'Advanced hosting with 24/7 support.',
     hostWhyEyebrow: 'Why us', hostWhyTitle: 'Performant',
     hostWhyDesc: 'No hidden costs.',
@@ -282,7 +282,7 @@ var T = {
     hostPlanesDesc: 'Free migration & SSL.',
     planHostBasico: 'Basic', planHostPro: 'Professional', planHostEmp: 'Business',
     planHostBasicoBtn: 'Choose Basic', planHostProBtn: 'Choose Pro', planHostEmpBtn: 'Choose Business',
-    cloudEyebrow: 'Sovereign Cloud', cloudTitle: 'Cloud <em>Sovereign</em>', 
+    cloudEyebrow: 'Sovereign Cloud', cloudTitle: 'Cloud <em>Sovereign</em>',
     cloudDesc: 'Sovereignty and performance.',
     cloudPrivTitle: 'Private Cloud', cloudPrivDesc: 'Dedicated infrastructure.',
     cloudPriv1T: 'Resources', cloudPriv2T: 'Security', cloudPriv3T: 'Support',
@@ -290,17 +290,17 @@ var T = {
     cloudDedTitle: 'Dedicated Cloud', cloudDedDesc: 'Maximum control.',
     cloudDedSolTitle: 'Cloud Solutions', cloudDedSolDesc: 'Next level IT.',
     contactSalesBtn: 'Contact Sales', downloadBtn: 'Brochure',
-    infraTitle:'IT Infrastructure', infraDesc:'Servers and network.',
-    infraSrvT:'Servers', infraNetT:'Network', infraStoT:'Storage', infraCta:'Request Info',
-    segTitle:'Security', segDesc:'Total protection.',
-    segLearn:'Learn More',
-    sopTitle:'Support', sopDesc:'24/7 experts.',
-    sopCta:'Contact Support',
-    telTitle:'Telecommunications', telDesc:'Enterprise grade.',
-    movTitle:'Mobile Lines', movDesc:'Corporate plans.',
-    movCta:'Get Offer',
+    infraTitle: 'IT Infrastructure', infraDesc: 'Servers and network.',
+    infraSrvT: 'Servers', infraNetT: 'Network', infraStoT: 'Storage', infraCta: 'Request Info',
+    segTitle: 'Security', segDesc: 'Total protection.',
+    segLearn: 'Learn More',
+    sopTitle: 'Support', sopDesc: '24/7 experts.',
+    sopCta: 'Contact Support',
+    telTitle: 'Telecommunications', telDesc: 'Enterprise grade.',
+    movTitle: 'Mobile Lines', movDesc: 'Corporate plans.',
+    movCta: 'Get Offer',
     footerTagline: 'IT security and infrastructure solutions.',
-    footerSolTitle: 'Solutions', footerCompTitle: 'Company', footerContTitle: 'Contact', 
+    footerSolTitle: 'Solutions', footerCompTitle: 'Company', footerContTitle: 'Contact',
     footerRights: '© 2026 Global Cloud Group. All rights reserved.', footerLoc: 'Malaga, Spain',
     footerComp1: 'The Group'
   },
@@ -317,17 +317,17 @@ var T = {
     dropCloud1: 'Cloud', dropCloud2: 'Cloud Privé Entreprise',
     modeLight: 'Mode clair', modeDark: 'Mode sombre',
     sl1: 'Clients Actifs', sl2: 'Uptime Garanti', sl3: 'Support Technique', sl4: 'Années d\'Expérience',
-    bcInicio: 'Accueil', bcSuscripciones: 'Abonnements', bcDaas: 'DAAS', bcProductos: 'Produits', 
-    bcContacto: 'Contact', bcDigital: 'Digital Transformation', bcHosting: 'Hébergement Web', 
-    bcHostPlanes: 'Plans', bcCloudLabel: 'Cloud Souverain', bcAlquiler: 'Location', 
+    bcInicio: 'Accueil', bcSuscripciones: 'Abonnements', bcDaas: 'DAAS', bcProductos: 'Produits',
+    bcContacto: 'Contact', bcDigital: 'Digital Transformation', bcHosting: 'Hébergement Web',
+    bcHostPlanes: 'Plans', bcCloudLabel: 'Cloud Souverain', bcAlquiler: 'Location',
     bcBareMetal: 'Bare Metal', bcPlanes: 'Plans', bcCorreo: 'Email',
-    bcInfra: 'Infrastructure IT', bcSeg: 'Sécurité', bcSop: 'Support Technique', 
+    bcInfra: 'Infrastructure IT', bcSeg: 'Sécurité', bcSop: 'Support Technique',
     bcTel: 'Télécoms', bcMov: 'Mobiles', bcCloudPrivada: 'Cloud Privé Entreprise',
     bcCloudDed: 'Cloud Dédié & Distribué',
-    heroEyebrow: 'Transformation Digitale', heroTitle: 'Solutions IT pour les<br/>entreprises <em>qui avancent</em>', 
-    heroDesc: 'Infrastructure cloud souveraine, cybersécurité avancée et services gérés.', 
+    heroEyebrow: 'Transformation Digitale', heroTitle: 'Solutions IT pour les<br/>entreprises <em>qui avancent</em>',
+    heroDesc: 'Infrastructure cloud souveraine, cybersécurité avancée et services gérés.',
     heroBtn1: 'Explorer services', heroBtn2: 'Parler à un expert',
-    servEyebrow: 'Nos services', servTitle: 'Tout ce dont vous avez besoin', 
+    servEyebrow: 'Nos services', servTitle: 'Tout ce dont vous avez besoin',
     servDesc: 'Du serveur physique au cloud souverain.',
     serv1T: 'Serveurs Physiques', serv1Desc: 'Infrastructure haute performance.',
     serv2T: 'Infrastructure IT', serv2Desc: 'Solutions sur mesure.',
@@ -340,7 +340,7 @@ var T = {
     subsCard2T: 'Plans de Location', subsCard2Desc: 'Solutions flexibles', subsCard2Btn: 'Voir Plans',
     subsCard3T: 'Solutions Email', subsCard3Desc: 'Communications chiffrées.', subsCard3Btn: 'Explorer Solutions',
     subsCard4T: 'Agent Digital (DAAS)', subsCard4Desc: 'Transformation digitale', subsCard4Btn: 'Voir DAAS',
-    rentingEyebrow: 'Location', rentingTitle: 'Location Technologique', 
+    rentingEyebrow: 'Location', rentingTitle: 'Location Technologique',
     renting1T: 'Serveurs Dédiés', renting1Desc: 'Performance brute avec accès root.',
     renting2T: 'Sécurité', renting2Desc: 'Protection DDoS entreprise.',
     renting3T: 'Support 24/7', renting3Desc: 'Surveillance continue.',
@@ -367,13 +367,13 @@ var T = {
     correoEntF1: '100Go Stockage', correoEntF2: 'Domaine pro', correoEntF3: 'Sécurité max', correoEntF4: 'Archivage', correoEntF5: 'Priorité', correoEntF6: 'Collaboration',
     daasEyebrow: 'DAAS', daasTitle: 'DAAS',
     daasDesc: 'Transformation business', daasBtnStart: 'Démarrer DAAS',
-    daas1T:'IA Solutions', daas1Desc:'Intelligence artificielle.',
-    bareMetalEyebrow: 'Infrastructure', bareMetalTitle: 'Serveurs Bare Metal', 
+    daas1T: 'IA Solutions', daas1Desc: 'Intelligence artificielle.',
+    bareMetalEyebrow: 'Infrastructure', bareMetalTitle: 'Serveurs Bare Metal',
     bareMetalDesc: 'Hardware haute performance.',
     bareMetal1T: 'Hardware Dédié', bareMetal1Desc: 'Serveurs physiques, accès root.',
     bareMetal2T: 'Stockage Premium', bareMetal2Desc: 'Disques SSD redondés.',
     bareMetal3T: 'Réseau', bareMetal3Desc: 'Haut débit, DDoS protection.',
-    prodEyebrow: 'Catalogue', prodTitle: 'Nos Produits', 
+    prodEyebrow: 'Catalogue', prodTitle: 'Nos Produits',
     prodDesc: 'Solutions infrastructure IT.',
     prod1T: 'Infrastructure', prod1Desc: 'Serveurs et réseaux.',
     prod2T: 'Sécurité', prod2Desc: 'Protéger votre cloud.',
@@ -389,7 +389,7 @@ var T = {
     partners2T: 'Tech Partners', partners2D: 'Líders technologiques.',
     partners3T: 'Réseau Global', partners3D: 'Solutions locales.',
     partBtn: 'Devenir Partenaire',
-    contEyebrow: 'Contact', contTitle: 'Contactez-Nous', 
+    contEyebrow: 'Contact', contTitle: 'Contactez-Nous',
     contDesc: 'Demandes et infos',
     contInfoTitle: 'Info Contact', contAddrT: 'Adresse', contPhoneT: 'Téléphone',
     contFormTitle: 'Formulaire', contSubmitBtn: 'Envoyer',
@@ -400,7 +400,7 @@ var T = {
     dtWhyDesc: 'Efficacité augmentée.',
     dtScheduleBtn: 'Planifier Consultation',
     dtBannerTitle: 'Prêt ?', dtBannerBtn: 'Experts conseil',
-    hostEyebrow: 'Hosting', hostTitle: 'Hébergement Web<br/><em>pro et sûr</em>', 
+    hostEyebrow: 'Hosting', hostTitle: 'Hébergement Web<br/><em>pro et sûr</em>',
     hostDesc: 'Hosting avec support 24/7.',
     hostWhyEyebrow: 'Pourquoi nous', hostWhyTitle: 'Performance',
     hostWhyDesc: 'Pas de frais cachés.',
@@ -412,7 +412,7 @@ var T = {
     hostPlanesDesc: 'Migration et SSL gratuits.',
     planHostBasico: 'Basique', planHostPro: 'Professionnel', planHostEmp: 'Entreprise',
     planHostBasicoBtn: 'Choisir Basique', planHostProBtn: 'Choisir Pro', planHostEmpBtn: 'Choisir Entreprise',
-    cloudEyebrow: 'Cloud Souverain', cloudTitle: 'Cloud <em>Souverain</em>', 
+    cloudEyebrow: 'Cloud Souverain', cloudTitle: 'Cloud <em>Souverain</em>',
     cloudDesc: 'Souveraineté et data performance.',
     cloudPrivTitle: 'Cloud Privé', cloudPrivDesc: 'Infra dédiée pro.',
     cloudPriv1T: 'Resources', cloudPriv2T: 'Sécurité', cloudPriv3T: 'Support 24/7',
@@ -420,17 +420,17 @@ var T = {
     cloudDedTitle: 'Cloud Dédié', cloudDedDesc: 'Contrôle total.',
     cloudDedSolTitle: 'Solutions Cloud', cloudDedSolDesc: 'Le futur IT.',
     contactSalesBtn: 'Contacter Ventes', downloadBtn: 'Télécharger Brochure',
-    infraTitle:'Infrastructure IT', infraDesc:'Serveurs et réseaux.',
-    infraSrvT:'Serveurs', infraNetT:'Red', infraStoT:'Stockage', infraCta:'Demander Info',
-    segTitle:'Sécurité', segDesc:'Protection totale.',
-    segLearn:'En savoir plus',
-    sopTitle:'Support', sopDesc:'Experts 24/7.',
-    sopCta:'Contacter Support',
-    telTitle:'Télécoms', telDesc:'Infrastructure pro.',
-    movTitle:'Mobiles', movDesc:'Plans entreprise.',
-    movCta:'Demander Offre',
+    infraTitle: 'Infrastructure IT', infraDesc: 'Serveurs et réseaux.',
+    infraSrvT: 'Serveurs', infraNetT: 'Red', infraStoT: 'Stockage', infraCta: 'Demander Info',
+    segTitle: 'Sécurité', segDesc: 'Protection totale.',
+    segLearn: 'En savoir plus',
+    sopTitle: 'Support', sopDesc: 'Experts 24/7.',
+    sopCta: 'Contacter Support',
+    telTitle: 'Télécoms', telDesc: 'Infrastructure pro.',
+    movTitle: 'Mobiles', movDesc: 'Plans entreprise.',
+    movCta: 'Demander Offre',
     footerTagline: 'Sécurité IT et infrastructure pour entreprises.',
-    footerSolTitle: 'Solutions', footerCompTitle: 'Compagnie', footerContTitle: 'Contact', 
+    footerSolTitle: 'Solutions', footerCompTitle: 'Compagnie', footerContTitle: 'Contact',
     footerRights: '© 2026 Global Cloud Group. Tous droits réservés.', footerLoc: 'Malaga, Espagne',
     footerComp1: 'Le Groupe'
   }
@@ -440,11 +440,11 @@ function setLang(lang) {
   var t = T[lang];
   if (!t) return;
   localStorage.setItem('selectedLang', lang);
-  document.querySelectorAll('.lang-btn').forEach(function(b) {
+  document.querySelectorAll('.lang-btn').forEach(function (b) {
     b.classList.toggle('active', b.textContent.trim().toLowerCase() === lang);
   });
   // Motor universal sincronizado
-  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+  document.querySelectorAll('[data-i18n]').forEach(function (el) {
     var key = el.getAttribute('data-i18n');
     if (t[key] !== undefined) {
       if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
@@ -459,14 +459,14 @@ function setLang(lang) {
     }
   });
   // Placelholders específicos
-  document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el) {
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(function (el) {
     var key = el.getAttribute('data-i18n-placeholder');
     if (t[key] !== undefined) el.placeholder = t[key];
   });
   // SEO & Titles
   var activePage = document.querySelector('.page.active');
   if (activePage) {
-    var pid = activePage.id.replace('page-','');
+    var pid = activePage.id.replace('page-', '');
     var pTitle = t[pid + 'Title'] || t['heroTitle'] || 'Global Cloud Group';
     document.title = 'Global Cloud Group | ' + pTitle.replace(/<[^>]*>/g, '');
     var meta = document.querySelector('meta[name="description"]');
@@ -476,50 +476,66 @@ function setLang(lang) {
   var dark = document.documentElement.getAttribute('data-theme') === 'dark';
   var themeLbl = document.getElementById('themeLabel');
   if (themeLbl) themeLbl.textContent = dark ? (t.modeDark || 'Modo oscuro') : (t.modeLight || 'Modo claro');
-  
-  // Refrescar captcha si estamos en contacto o para inicializarlo
+
+  // Refrescar captcha si estamos en contacto
   initCaptcha();
 }
 
-var captchaSum = 0;
+var captchaVerified = false;
+var captchaIcons = [
+  { id: 'cloud', svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>' },
+  { id: 'server', svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="5" rx="1"/><rect x="2" y="10" width="20" height="5" rx="1"/><rect x="2" y="17" width="20" height="5" rx="1"/></svg>' },
+  { id: 'lock', svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>' },
+  { id: 'phone', svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>' },
+  { id: 'mail', svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>' },
+  { id: 'user', svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>' }
+];
 
 function initCaptcha() {
-  var n1 = Math.floor(Math.random() * 10) + 1;
-  var n2 = Math.floor(Math.random() * 10) + 1;
-  captchaSum = n1 + n2;
-  var lang = localStorage.getItem('selectedLang') || 'es';
-  var t = T[lang] || T.es;
-  var label = t.contCaptchaLabel || 'Seguridad: ¿Cuánto es {n1} + {n2}?';
-  label = label.replace('{n1}', n1).replace('{n2}', n2);
-  var el = document.getElementById('captcha-question');
-  if (el) el.parentElement.innerHTML = label.replace('?', ' <span id="captcha-question">?</span>').replace(n1 + ' + ' + n2, '<span id="captcha-numbers">' + n1 + ' + ' + n2 + '</span>');
-  // Re-identificar el span si es necesario o simplemente actualizar el texto del contenedor
-  var container = document.querySelector('[data-i18n="contCaptchaLabel"]');
-  if (container) {
-    container.textContent = label;
-  }
+  var container = document.getElementById('captcha-icons-container');
+  if (!container) return;
+  
+  captchaVerified = false;
+  container.innerHTML = '';
+  
+  var shuffled = captchaIcons.slice().sort(function() { return 0.5 - Math.random(); });
+  
+  shuffled.forEach(function(icon) {
+    var btn = document.createElement('div');
+    btn.className = 'captcha-icon-btn';
+    btn.innerHTML = icon.svg;
+    btn.onclick = function() {
+      if (icon.id === 'cloud') {
+        captchaVerified = true;
+        document.querySelectorAll('.captcha-icon-btn').forEach(function(b) { b.classList.remove('selected', 'error'); });
+        btn.classList.add('selected');
+        btn.style.color = 'var(--accent)';
+      } else {
+        captchaVerified = false;
+        document.querySelectorAll('.captcha-icon-btn').forEach(function(b) { b.classList.remove('selected'); });
+        btn.classList.add('error');
+        setTimeout(function() { btn.classList.remove('error'); }, 500);
+      }
+    };
+    container.appendChild(btn);
+  });
 }
 
 function submitContactForm() {
   var lang = localStorage.getItem('selectedLang') || 'es';
   var t = T[lang] || T.es;
   
-  // Honeypot check
   var honey = document.getElementById('form-honeypot').value;
   if (honey) {
-    alert(t.contBotError);
+    alert(t.contBotError || 'Bot detected');
     return;
   }
 
-  // Captcha check
-  var userAns = parseInt(document.getElementById('form-captcha').value);
-  if (userAns !== captchaSum) {
-    alert(t.contCaptchaError);
-    initCaptcha();
+  if (!captchaVerified) {
+    alert(t.contCaptchaError || 'Please complete security verification.');
     return;
   }
 
-  // Basic validation
   var name = document.querySelector('[data-i18n-placeholder="contNamePlaceholder"]').value;
   var email = document.querySelector('[data-i18n-placeholder="contEmailPlaceholder"]').value;
   var msg = document.getElementById('form-message').value;
@@ -529,9 +545,7 @@ function submitContactForm() {
     return;
   }
 
-  alert(t.contSuccess);
-  // Reset form
-  document.getElementById('form-captcha').value = '';
+  alert(t.contSuccess || 'Success');
   document.getElementById('form-message').value = '';
   document.querySelector('[data-i18n-placeholder="contNamePlaceholder"]').value = '';
   document.querySelector('[data-i18n-placeholder="contEmailPlaceholder"]').value = '';
@@ -539,10 +553,10 @@ function submitContactForm() {
 }
 
 function navigate(page) {
-  document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('active'); });
+  document.querySelectorAll('.page').forEach(function (p) { p.classList.remove('active'); });
   var target = document.getElementById('page-' + page);
-  if (target) { target.classList.add('active'); window.scrollTo({top:0, behavior:'smooth'}); }
-  document.querySelectorAll('.nav-item').forEach(function(i) { i.classList.remove('open'); });
+  if (target) { target.classList.add('active'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  document.querySelectorAll('.nav-item').forEach(function (i) { i.classList.remove('open'); });
   var menu = document.getElementById('navMenu');
   if (menu) menu.classList.remove('open');
   var ham = document.querySelector('.hamburger');
@@ -552,11 +566,10 @@ function navigate(page) {
 }
 
 function setActiveNav(page) {
-  document.querySelectorAll('.nav-link').forEach(function(l) { 
-    l.classList.remove('current'); 
+  document.querySelectorAll('.nav-link').forEach(function (l) {
+    l.classList.remove('current');
     var dp = l.getAttribute('data-page');
     if (dp === page) l.classList.add('current');
-    // Mapeo subpáginas
     if (page === 'planes' && dp === 'hosting') l.classList.add('current');
     if (page === 'alquiler' && dp === 'alquiler-tec') l.classList.add('current');
     if (page === 'correo' && dp === 'suscripciones') l.classList.add('current');
@@ -574,7 +587,7 @@ function toggleMobile() {
 function toggleDrop(id) {
   var el = document.getElementById(id);
   var was = el.classList.contains('open');
-  document.querySelectorAll('.nav-item').forEach(function(i) { i.classList.remove('open'); });
+  document.querySelectorAll('.nav-item').forEach(function (i) { i.classList.remove('open'); });
   if (!was) el.classList.add('open');
 }
 
@@ -592,18 +605,18 @@ function toggleTheme() {
   setLang(localStorage.getItem('selectedLang') || 'es');
 }
 
-document.addEventListener('click', function(e) {
+document.addEventListener('click', function (e) {
   if (!e.target.closest('.nav-item')) {
-    document.querySelectorAll('.nav-item').forEach(function(i) { i.classList.remove('open'); });
+    document.querySelectorAll('.nav-item').forEach(function (i) { i.classList.remove('open'); });
   }
 });
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
   var b = document.getElementById('backToTop');
   if (b) b.classList.toggle('visible', window.scrollY > 280);
 });
 
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
   setLang(localStorage.getItem('selectedLang') || 'es');
   setActiveNav('home');
   initCaptcha();
