@@ -473,6 +473,8 @@ function navigate(page) {
   document.querySelectorAll('.nav-item').forEach(function(i) { i.classList.remove('open'); });
   var menu = document.getElementById('navMenu');
   if (menu) menu.classList.remove('open');
+  var ham = document.querySelector('.hamburger');
+  if (ham) ham.classList.remove('active');
   setActiveNav(page);
 }
 
@@ -493,6 +495,7 @@ function setActiveNav(page) {
 
 function toggleMobile() {
   document.getElementById('navMenu').classList.toggle('open');
+  document.querySelector('.hamburger').classList.toggle('active');
 }
 
 function toggleDrop(id) {
