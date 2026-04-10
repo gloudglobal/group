@@ -437,6 +437,8 @@ var T = {
 };
 
 function setLang(lang) {
+  var sel = document.getElementById('lang-selected');
+  if (sel) sel.childNodes[0].textContent = lang.toUpperCase() + ' ';
   var t = T[lang];
   if (!t) return;
   localStorage.setItem('selectedLang', lang);
@@ -494,27 +496,27 @@ var captchaIcons = [
 function initCaptcha() {
   var container = document.getElementById('captcha-icons-container');
   if (!container) return;
-  
+
   captchaVerified = false;
   container.innerHTML = '';
-  
-  var shuffled = captchaIcons.slice().sort(function() { return 0.5 - Math.random(); });
-  
-  shuffled.forEach(function(icon) {
+
+  var shuffled = captchaIcons.slice().sort(function () { return 0.5 - Math.random(); });
+
+  shuffled.forEach(function (icon) {
     var btn = document.createElement('div');
     btn.className = 'captcha-icon-btn';
     btn.innerHTML = icon.svg;
-    btn.onclick = function() {
+    btn.onclick = function () {
       if (icon.id === 'cloud') {
         captchaVerified = true;
-        document.querySelectorAll('.captcha-icon-btn').forEach(function(b) { b.classList.remove('selected', 'error'); });
+        document.querySelectorAll('.captcha-icon-btn').forEach(function (b) { b.classList.remove('selected', 'error'); });
         btn.classList.add('selected');
         btn.style.color = 'var(--accent)';
       } else {
         captchaVerified = false;
-        document.querySelectorAll('.captcha-icon-btn').forEach(function(b) { b.classList.remove('selected'); });
+        document.querySelectorAll('.captcha-icon-btn').forEach(function (b) { b.classList.remove('selected'); });
         btn.classList.add('error');
-        setTimeout(function() { btn.classList.remove('error'); }, 500);
+        setTimeout(function () { btn.classList.remove('error'); }, 500);
       }
     };
     container.appendChild(btn);
@@ -524,7 +526,7 @@ function initCaptcha() {
 function submitContactForm() {
   var lang = localStorage.getItem('selectedLang') || 'es';
   var t = T[lang] || T.es;
-  
+
   var honey = document.getElementById('form-honeypot').value;
   if (honey) {
     alert(t.contBotError || 'Bot detected');
@@ -550,6 +552,16 @@ function submitContactForm() {
   document.querySelector('[data-i18n-placeholder="contNamePlaceholder"]').value = '';
   document.querySelector('[data-i18n-placeholder="contEmailPlaceholder"]').value = '';
   initCaptcha();
+}
+
+  function handleLogin() {
+  var email = document.getElementById('login-email').value;
+  var pass = document.getElementById('login-pass').value;
+  if (!email || !pass) {
+    alert('Por favor, rellene todos los campos.');
+    return;
+  }
+  alert('Acceso no disponible en este momento. Contacte con soporte.');
 }
 
 function navigate(page) {
@@ -591,6 +603,18 @@ function toggleDrop(id) {
   if (!was) el.classList.add('open');
 }
 
+function toggleLangDrop() {
+  var drop = document.getElementById('lang-drop');
+  drop.style.display = drop.style.display === 'none' ? 'block' : 'none';
+}
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.lang-switcher')) {
+    var drop = document.getElementById('lang-drop');
+    if (drop) drop.style.display = 'none';
+  }
+});
+
 function toggleTheme() {
   var root = document.documentElement;
   var isDark = root.getAttribute('data-theme') === 'dark';
@@ -620,8 +644,8 @@ function animateCounters() {
   var counters = document.querySelectorAll('.stat-num');
   var speed = 200;
 
-  counters.forEach(function(counter) {
-    var updateCount = function() {
+  counters.forEach(function (counter) {
+    var updateCount = function () {
       var target = +counter.getAttribute('data-target');
       var count = +counter.innerText.replace('+', '').replace('%', '').replace('+', '');
       var inc = target / speed;
@@ -629,7 +653,7 @@ function animateCounters() {
       if (count < target) {
         var nextValue = count + inc;
         if (nextValue > target) nextValue = target;
-        
+
         var suffix = counter.innerText.includes('%') ? '%' : (counter.innerText.includes('+') ? '+' : '');
         counter.innerText = (suffix === '+' ? '+' : '') + Math.ceil(nextValue) + (suffix === '%' ? '%' : '');
         setTimeout(updateCount, 1);
@@ -643,8 +667,8 @@ function animateCounters() {
 }
 
 // Observer para disparar animación cuando los stats entran en vista
-var statsObserver = new IntersectionObserver(function(entries) {
-  entries.forEach(function(entry) {
+var statsObserver = new IntersectionObserver(function (entries) {
+  entries.forEach(function (entry) {
     if (entry.isIntersecting) {
       animateCounters();
       statsObserver.unobserve(entry.target);
@@ -656,7 +680,7 @@ window.addEventListener('DOMContentLoaded', function () {
   setLang(localStorage.getItem('selectedLang') || 'es');
   setActiveNav('home');
   initCaptcha();
-  
+
   var statsBand = document.querySelector('.stats-band');
   if (statsBand) statsObserver.observe(statsBand);
 });
