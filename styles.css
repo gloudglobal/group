@@ -2213,3 +2213,28 @@ html, body {
     padding: 24px 20px;
   }
 }
+
+.whatsapp-btn {
+  width: 47px !important;
+  height: 45px !important;
+}
+
+.whatsapp-btn svg, 
+.whatsapp-btn img {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+/* Solo para móviles */
+@media (max-width: 768px) {
+  .whatsapp-btn {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  
+  .whatsapp-btn svg, 
+  .whatsapp-btn img {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}
