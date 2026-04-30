@@ -57,10 +57,7 @@
       </ul>
       <div class="nav-right">
         <div class="theme-pill" onclick="toggleTheme()">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="themeIcon">
-            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-          </svg>
-          <span id="themeLabel" data-i18n="modeLight">Modo claro</span>
+          <span id="themeLabel" data-i18n="modeDark">Modo oscuro</span>
         </div>
         <div class="lang-switcher" style="position:relative;">
           <span class="lang-btn active" id="lang-selected" onclick="toggleLangDrop()" style="display:flex;align-items:center;gap:4px;cursor:pointer;">
@@ -157,6 +154,21 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section style="padding:32px 20px 32px;display:flex;justify-content:center;gap:32px;flex-wrap:wrap;">
+      <a href="https://integrasl.github.io/tech/" target="_blank" rel="noopener"
+        style="display:flex;align-items:center;justify-content:center;padding:18px 32px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:0 4px 16px rgba(0,0,0,0.06);transition:box-shadow .2s,border-color .2s;cursor:pointer;text-decoration:none;"
+        onmouseover="this.style.boxShadow='0 8px 28px rgba(0,0,0,0.13)';this.style.borderColor='var(--accent)'"
+        onmouseout="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.06)';this.style.borderColor='var(--border)'">
+        <img src="asset 10.png" alt="Integra" style="height:48px;width:auto;object-fit:contain;">
+      </a>
+      <a href="#" onclick="navigate('home');return false;"
+        style="display:flex;align-items:center;justify-content:center;padding:18px 32px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:0 4px 16px rgba(0,0,0,0.06);transition:box-shadow .2s,border-color .2s;cursor:pointer;text-decoration:none;"
+        onmouseover="this.style.boxShadow='0 8px 28px rgba(0,0,0,0.13)';this.style.borderColor='var(--accent)'"
+        onmouseout="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.06)';this.style.borderColor='var(--border)'">
+        <img src="logo.jpg" alt="Cloud Global" style="height:48px;width:auto;object-fit:contain;">
+      </a>
     </section>
 
     <section class="stats-band">
@@ -889,7 +901,7 @@
 
       <div style="text-align:center;margin-top:20px;">
         <p style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-3);margin-bottom:12px;">¿No tiene una cuenta?</p>
-        <button onclick="navigate('contacto')" style="width:100%;padding:10px;background:transparent;border:1px solid var(--border);border-radius:var(--radius);font-size:13.5px;font-weight:500;color:var(--text);cursor:pointer;transition:border-color .2s,color .2s;"
+        <button onclick="navigate('registro')" style="width:100%;padding:10px;background:transparent;border:1px solid var(--border);border-radius:var(--radius);font-size:13.5px;font-weight:500;color:var(--text);cursor:pointer;transition:border-color .2s,color .2s;"
           onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'"
           onmouseout="this.style.borderColor='';this.style.color=''">
           Registrarse
@@ -901,6 +913,80 @@
 </div>
   
    
+  <!-- PÁGINA REGISTRO -->
+  <div class="page" id="page-registro">
+  <div style="min-height:70vh;display:flex;align-items:center;justify-content:center;padding:60px 20px;">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:40px 36px;width:100%;max-width:520px;box-shadow:0 8px 32px rgba(0,0,0,0.08);">
+
+      <h2 style="font-family:var(--font-display);font-size:1.5rem;font-weight:600;color:var(--text);text-align:center;margin-bottom:28px;">
+        Crear Cuenta
+      </h2>
+
+      <div class="form-group">
+        <label class="form-label">Nombre completo</label>
+        <div class="form-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <input type="text" placeholder="Nombre y apellidos" class="form-input" id="reg-name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <div class="form-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <input type="email" placeholder="m@example.com" class="form-input" id="reg-email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Contraseña</label>
+        <div class="form-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="11" width="18" height="11" rx="2"/>
+            <path d="M7 11V7a5 5 0 0110 0v4"/>
+          </svg>
+          <input type="password" placeholder="" class="form-input" id="reg-pass">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Confirmar contraseña</label>
+        <div class="form-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="11" width="18" height="11" rx="2"/>
+            <path d="M7 11V7a5 5 0 0110 0v4"/>
+          </svg>
+          <input type="password" placeholder="" class="form-input" id="reg-pass2">
+        </div>
+      </div>
+
+      <button class="form-submit" style="margin-top:8px;" onclick="handleRegister()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+          <path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/>
+          <line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/>
+        </svg>
+        Crear cuenta
+      </button>
+
+      <div style="text-align:center;margin-top:20px;">
+        <p style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-3);margin-bottom:12px;">¿Ya tiene una cuenta?</p>
+        <button onclick="navigate('login')" style="width:100%;padding:10px;background:transparent;border:1px solid var(--border);border-radius:var(--radius);font-size:13.5px;font-weight:500;color:var(--text);cursor:pointer;transition:border-color .2s,color .2s;"
+          onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'"
+          onmouseout="this.style.borderColor='';this.style.color=''">
+          Iniciar sesión
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
   <div class="page" id="page-contacto">
     <div class="breadcrumb"><span class="bc-link" onclick="navigate('home')" data-i18n="bcInicio">Inicio</span><span class="bc-sep"> /
       </span><span class="bc-current" data-i18n="bcContacto">Contacto</span></div>

@@ -477,7 +477,7 @@ function setLang(lang) {
   // Temas e iconos
   var dark = document.documentElement.getAttribute('data-theme') === 'dark';
   var themeLbl = document.getElementById('themeLabel');
-  if (themeLbl) themeLbl.textContent = dark ? (t.modeDark || 'Modo oscuro') : (t.modeLight || 'Modo claro');
+  if (themeLbl) themeLbl.textContent = dark ? (t.modeLight || 'Modo claro') : (t.modeDark || 'Modo oscuro');
 
   // Refrescar captcha si estamos en contacto
   initCaptcha();
@@ -564,6 +564,22 @@ function submitContactForm() {
   alert('Acceso no disponible en este momento. Contacte con soporte.');
 }
 
+function handleRegister() {
+  var name = document.getElementById('reg-name').value.trim();
+  var email = document.getElementById('reg-email').value.trim();
+  var pass = document.getElementById('reg-pass').value;
+  var pass2 = document.getElementById('reg-pass2').value;
+  if (!name || !email || !pass || !pass2) {
+    alert('Por favor, rellene todos los campos.');
+    return;
+  }
+  if (pass !== pass2) {
+    alert('Las contraseñas no coinciden.');
+    return;
+  }
+  alert('Registro no disponible en este momento. Contacte con soporte.');
+}
+
 function navigate(page) {
   document.querySelectorAll('.page').forEach(function (p) { p.classList.remove('active'); });
   var target = document.getElementById('page-' + page);
@@ -620,12 +636,6 @@ function toggleTheme() {
   var isDark = root.getAttribute('data-theme') === 'dark';
   var newTheme = isDark ? 'light' : 'dark';
   root.setAttribute('data-theme', newTheme);
-  var icon = document.getElementById('themeIcon');
-  if (icon) {
-    icon.innerHTML = newTheme === 'light'
-      ? '<path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />'
-      : '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>';
-  }
   setLang(localStorage.getItem('selectedLang') || 'es');
 }
 

@@ -496,7 +496,7 @@
    HOME SERVICES
 ═══════════════════════════════════ */
     .home-services {
-      padding: 0 28px 88px;
+      padding: 0 28px 32px;
     }
 
     .home-services .section-wrap {
@@ -753,7 +753,7 @@
     }
 
     .footer-col ul li a:hover {
-      color: #fff;
+      color: var(--accent);
     }
 
     .footer-contact-list {
